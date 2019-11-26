@@ -16,13 +16,6 @@ Vector3::Vector3(double x1, double y1, double z1) :
 
 }
 
-Vector3::Vector3(Vector3& V)
-{  // To allow other values for X, Y and Z to be declared
-	m_x = V.m_x;
-	m_y = V.m_y;
-	m_z = V.m_z;
-}
-
 double Vector3::Length()
 {  // A method to return the length of the vector
 	return (double)sqrt(m_x * m_x + m_y * m_y + m_z * m_z);

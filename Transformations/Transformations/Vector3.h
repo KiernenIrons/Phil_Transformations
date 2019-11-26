@@ -13,9 +13,6 @@ public:
 	// Constructor 2
 	Vector3(double x1, double y1, double z1);
 
-	// Constructor 3
-	Vector3(Vector3& V);
-
 	double Length();
 	double LengthSquared();
 	Vector3 Normalise();
@@ -38,11 +35,13 @@ public:
 
 	std::string ToString();
 
+	double m_x;
+	double m_y;
+	double m_z;
+
 
 
 private:
 
-	double m_x;
-	double m_y;
-	double m_z;
+	
 };
