@@ -24,7 +24,19 @@ public:
 
 	Vector3 operator-(Vector3 V1);
 
+	Vector3 operator-();
+
 	double operator*(Vector3 V1);
+
+	Vector3 operator*(double k);
+
+	Vector3 operator*(float k);
+
+	Vector3 operator*(int k);
+
+	Vector3 operator^(Vector3 V1);
+
+	std::string ToString();
 
 
 
