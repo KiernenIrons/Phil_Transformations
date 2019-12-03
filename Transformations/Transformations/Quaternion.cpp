@@ -13,20 +13,6 @@ double Quaternion::Modulus()
 	return sqrt(w * w + x * x + y * y + z * z);
 }
 
-Quaternion Quaternion::Normalise()
-{
-	double m = w * w + x * x + y * y + z * z;
-	if (m > 0.001)
-	{
-		m = sqrt(m);
-		return Quaternion(w / m, x / m, y / m, z / m);
-	}
-	else
-	{
-		return Quaternion(1, 0, 0, 0);
-	}
-}
-
 Quaternion Quaternion::Conjugate()
 {
 	return Quaternion(w, -x, -y, -z);
@@ -116,6 +102,20 @@ Quaternion Quaternion::operator*(Quaternion q2)
 	double ny = w * q2.y + y * q2.w + z * q2.x - x * q2.z;
 	double nz = w * q2.z + z * q2.w + x * q2.y - y * q2.x;
 	return Quaternion(nw, nx, ny, nz);
+}
+
+Quaternion Quaternion::Normalise()
+{
+	double m = w * w + x * x + y * y + z * z;
+	if (m > 0.001)
+	{
+		m = sqrt(m);
+		return Quaternion(w / m, x / m, y / m, z / m);
+	}
+	else
+	{
+		return Quaternion(1, 0, 0, 0);
+	}
 }
 
 Quaternion operator*(double s, Quaternion t_quarternion)

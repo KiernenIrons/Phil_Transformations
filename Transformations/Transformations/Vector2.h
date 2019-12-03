@@ -68,9 +68,6 @@ public:
 	/// </summary>
 	/// <returns>Normalised Vector2</returns>
 	Vector2 normalise();
-
-	std::string toString();
-
 	Vector2 operator+(const Vector2 t_addVector) const;
 	Vector2 operator-(const Vector2 t_subVector) const;
 	void operator-();
@@ -78,6 +75,7 @@ public:
 	Vector2 operator *(float k) const;
 	Vector2 operator *(int k) const;
 	float operator ^(Vector2 t_vector) const;
+	std::string toString();
 };
 
 #endif

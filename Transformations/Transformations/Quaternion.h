@@ -29,8 +29,6 @@ public:
 
 	double Modulus();
 
-	Quaternion Normalise();
-
 	Quaternion Conjugate();
 
 	void FromAxisAngle(Vector3 axis, double angleRadian);
@@ -52,6 +50,8 @@ public:
 	Quaternion operator *(float s);
 
 	Quaternion operator *(int s);
+
+	Quaternion Normalise();
 
 	friend Quaternion operator *(double s, Quaternion t_quarternion);
 

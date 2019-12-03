@@ -51,8 +51,6 @@ Vector2 Vector2::operator-(const Vector2 t_subVector) const
 	return { m_x - t_subVector.getX(), m_y - t_subVector.getY() };
 }
 
-
-
 /// <summary>
 /// An overloaded operator - to return the negation of a single vector
 /// </summary>
