@@ -25,7 +25,7 @@ double Vector3::LengthSquared()
 	return (m_x * m_x + m_y * m_y + m_z * m_z);
 }
 
-Vector3 Vector3::Normalise()
+void Vector3::Normalise()
 {  // A method to reduce the length of the vector to 1.0 
 	// keeping the direction the same
 	if (this->Length() > 0.0)

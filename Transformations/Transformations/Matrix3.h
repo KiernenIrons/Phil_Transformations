@@ -27,13 +27,13 @@ public:
 
 	Matrix3 operator-(Matrix3 M1);
 
-	Matrix3 RotationX(int _angle);
+	static Matrix3 RotationX(int _angle);
 
-	Matrix3 RotationY(int _angle);
+	static Matrix3 RotationY(int _angle);
 
-	Matrix3 RotationZ(int _angle);
+	static Matrix3 RotationZ(int _angle);
 
-	Matrix3 Scale3D(int dx);
+	static Matrix3 Scale3D(int dx);
 
 	Matrix3 operator*(double x);
 
@@ -46,6 +46,4 @@ public:
 	double A31;
 	double A32;
 	double A33;
-
-	double PI = 3.14159265359;
 };

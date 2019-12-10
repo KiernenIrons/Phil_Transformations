@@ -127,6 +127,7 @@
   <ItemGroup>
     <ClCompile Include="Matrix3.cpp" />
     <ClCompile Include="Quaternion.cpp" />
+    <ClCompile Include="Main.cpp" />
     <ClCompile Include="Vector2.cpp" />
     <ClCompile Include="Vector3.cpp" />
   </ItemGroup>

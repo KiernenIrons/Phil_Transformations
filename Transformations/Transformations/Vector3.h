@@ -15,7 +15,7 @@ public:
 
 	double Length();
 	double LengthSquared();
-	Vector3 Normalise();
+	void Normalise();
 
 	Vector3 operator+(const Vector3 t_right);
 

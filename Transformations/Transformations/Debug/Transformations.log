@@ -1,6 +1,6 @@
-﻿  Matrix3.cpp
-C:\Users\c00241492\Desktop\Transformations_Phil\Transformations\Transformations\Matrix3.cpp(127,1): error C2084:  function 'Matrix3 Matrix3::operator *(Matrix3)' already has a body
-  Vector3.cpp
-  Generating Code...
-C:\Users\c00241492\Desktop\Transformations_Phil\Transformations\Transformations\Matrix3.cpp(47): message :  see previous definition of '*'
-C:\Users\c00241492\Desktop\Transformations_Phil\Transformations\Transformations\Matrix3.cpp(47): message : C:\Users\c00241492\Desktop\Transformations_Phil\Transformations\Transformations\Vector3.cpp(38) : error C4716: 'Vector3::Normalise': must return a value
+﻿  Main.cpp
+C:\Users\c00241492\Desktop\Transformations_Phil\Transformations\Transformations\Main.cpp(15,34): warning C4244:  'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\c00241492\Desktop\Transformations_Phil\Transformations\Transformations\Main.cpp(24,29): warning C4244:  'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\c00241492\Desktop\Transformations_Phil\Transformations\Transformations\Main.cpp(33,34): warning C4244:  'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\c00241492\Desktop\Transformations_Phil\Transformations\Transformations\Main.cpp(44,29): warning C4244:  'argument': conversion from 'double' to 'int', possible loss of data
+  Transformations.vcxproj -> C:\Users\c00241492\Desktop\Transformations_Phil\Transformations\Debug\Transformations.exe
